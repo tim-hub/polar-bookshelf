@@ -8,7 +8,7 @@ export class AnnotationSidebars {
 
     public static create(docMeta: DocMeta): Splitter {
 
-        const splitter = new Splitter('#polar-viewer', '#polar-sidebar');
+        const splitter = new Splitter('.polar-viewer', '#polar-sidebar');
 
         splitter.collapse();
 
